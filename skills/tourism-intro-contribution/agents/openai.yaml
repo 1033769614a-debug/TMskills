@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tourism Introduction & Contribution"
+  short_description: "Build persuasive tourism introductions and contributions"
+  default_prompt: "Use $tourism-intro-contribution to diagnose and strengthen my paper introduction and research contributions."

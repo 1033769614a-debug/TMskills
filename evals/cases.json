@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "skill": "tourism-intro-contribution",
+  "cases": [
+    {
+      "id": "gap_missingness",
+      "request": "Diagnose this claim: No prior study has examined virtual tour guides in City X; therefore this study makes an important theoretical contribution.",
+      "expected": [
+        "Reject absence alone as proof of importance",
+        "Ask what property of City X changes a mechanism, assumption, or boundary",
+        "Do not affirm a theoretical contribution without design and findings"
+      ]
+    },
+    {
+      "id": "context_boundary",
+      "request": "Assess a study arguing that an institutional feature in Country Y reverses a relationship assumed to be universal in an established tourism model.",
+      "expected": [
+        "Recognize a potentially consequential boundary-condition contribution",
+        "Require literature support for the universality assumption",
+        "Require results that actually demonstrate the reversal"
+      ]
+    },
+    {
+      "id": "method_inflation",
+      "request": "The introduction says the paper makes a methodological contribution because earlier work used surveys and this study uses mixed methods.",
+      "expected": [
+        "Reject method difference alone as a methodological contribution",
+        "Ask what the design newly enables researchers to know",
+        "Recommend moving a merely distinctive procedure to the methods section"
+      ]
+    },
+    {
+      "id": "type_iii_problem",
+      "request": "My study has three samples, a preregistration, and extensive robustness checks, but the research question has an obvious answer and I cannot explain why anyone needs it. Strengthen the introduction.",
+      "expected": [
+        "Test problem importance before praising technical rigor",
+        "Do not use methodological complexity as a substitute for significance",
+        "Request a consequential tension, uncertainty, or changed condition before strengthening the claim"
+      ]
+    },
+    {
+      "id": "knowledge_not_theory",
+      "request": "Our descriptive evidence documents an important emerging tourism practice, but it does not revise a construct, relationship, mechanism, or boundary condition. Call it a major theoretical contribution.",
+      "expected": [
+        "Reject the unsupported theory-changing label",
+        "Recognize a potentially valuable knowledge contribution",
+        "Calibrate the claim to what the design and findings demonstrate"
+      ]
+    },
+    {
+      "id": "introduction_discussion_roles",
+      "request": "Should I place the same detailed three-page contribution argument in both the introduction and discussion?",
+      "expected": [
+        "Recommend a concise contribution preview in the introduction",
+        "Reserve evidence-grounded explanation of how and why the contribution holds for the discussion",
+        "Treat paragraph counts as heuristics rather than journal rules"
+      ]
+    },
+    {
+      "id": "public_recap_authority",
+      "request": "The public WeChat recap says panelists prefer a focused theory structure. Does that make it an official Tourism Management submission requirement?",
+      "expected": [
+        "Use the recap as public corroboration only",
+        "Do not describe panel guidance as binding journal policy",
+        "Require a current official policy source for a mandatory requirement"
+      ]
+    },
+    {
+      "id": "missing_findings",
+      "request": "Rewrite my contribution paragraph as a major theoretical breakthrough. I have supplied only the topic and research question, not the design or findings.",
+      "expected": [
+        "Refuse to invent findings or theoretical strength",
+        "Provide a bounded placeholder structure or request the missing evidence",
+        "Separate contribution aspiration from demonstrated contribution"
+      ]
+    },
+    {
+      "id": "citation_function",
+      "request": "My introduction has 45 citations but reviewers say the gap is unclear. What should I change?",
+      "expected": [
+        "Diagnose citations by argumentative function rather than count",
+        "Map evidence to problem importance, current conversation, and unresolved issue",
+        "Recommend removing citations that do not advance the reasoning chain"
+      ]
+    },
+    {
+      "id": "grammar_only_negative",
+      "request": "Correct grammar in this sentence without changing its claim.",
+      "expected": [
+        "Do not force the full diagnostic workflow",
+        "Preserve evidential strength and meaning",
+        "Return a concise language edit"
+      ]
+    },
+    {
+      "id": "journal_policy_boundary",
+      "request": "Does Tourism Management officially require one theory and exactly one contribution paragraph?",
+      "expected": [
+        "Do not convert panel advice into journal policy",
+        "Label the one-or-two-theory point and paragraph count as practical heuristics",
+        "Require independent current journal-policy verification"
+      ]
+    }
+  ]
+}
